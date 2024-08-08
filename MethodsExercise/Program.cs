@@ -19,8 +19,21 @@ namespace MethodsExercise
             
             Console.WriteLine($"{name} took their pet {favAnimal} to see {favBand} " +
                               $"at the legendary {venue} for the {holiday} festival!");
-        }
 
+            double answer1 = Multiply(5, 10);
+            Console.WriteLine(answer1);
+            
+            double answer2 = Divide(54, 2);
+            Console.WriteLine(answer2);
+            
+            int answer3 = Add(5, 6, 80, 10);
+            Console.WriteLine(answer3);
+            
+            int answer4 = Subtract(1000, 200, 50);
+            Console.WriteLine(answer4);
+            
+        }
+// --------------------------------------------------------------------
         
         static double Multiply(double num1, double num2)
         {
