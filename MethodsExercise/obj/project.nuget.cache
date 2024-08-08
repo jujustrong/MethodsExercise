@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BDo//jusNLcjYGTWFWohZUUF5wXiTid7LD09qBIBo5Ab14Vc3s2DlwFu9jWPgUdowWRHNmFn7gsa5cjbQU39SA==",
+  "dgSpecHash": "W7WVdZT/UmzdL1on9X1QuUENx4/IrDPcKi3/CO+7MErxvZj1E47iXNbWP8l+GYnulk32asnuU+nZec+WrQUGuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\TrueCoders\\Full-Stack\\MethodsExercise\\MethodsExercise\\MethodsExercise.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/jarmstrong/Desktop/repos/MethodsExercise/MethodsExercise/MethodsExercise.csproj",
+  "expectedPackageFiles": [
+    "/Users/jarmstrong/.nuget/packages/microsoft.netcore.app.ref/6.0.32/microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "/Users/jarmstrong/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.32/microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "/Users/jarmstrong/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.32/microsoft.netcore.app.host.osx-arm64.6.0.32.nupkg.sha512"
+  ],
   "logs": []
 }
