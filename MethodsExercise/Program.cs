@@ -6,19 +6,7 @@ namespace MethodsExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name? ");
-            string name = Console.ReadLine();
-            Console.WriteLine("What is your favorite Holiday? ");
-            string holiday = Console.ReadLine();
-            Console.WriteLine("What is your favorite animal? ");
-            string favAnimal = Console.ReadLine();
-            Console.WriteLine("What is your favorite band? ");
-            string favBand = Console.ReadLine();
-            Console.WriteLine("What is your favorite venue? ");
-            string venue = Console.ReadLine();
-            
-            Console.WriteLine($"{name} took their pet {favAnimal} to see {favBand} " +
-                              $"at the legendary {venue} for the {holiday} festival!");
+            MadLib();
 
             double answer1 = Multiply(5, 10);
             Console.WriteLine(answer1);
@@ -34,7 +22,23 @@ namespace MethodsExercise
             
         }
 // --------------------------------------------------------------------
-        
+        public static void MadLib()
+        {
+            Console.WriteLine("What is your name? ");
+            string name = Console.ReadLine();
+            Console.WriteLine("What is your favorite Holiday? ");
+            string holiday = Console.ReadLine();
+            Console.WriteLine("What is your favorite animal? ");
+            string favAnimal = Console.ReadLine();
+            Console.WriteLine("What is your favorite band? ");
+            string favBand = Console.ReadLine();
+            Console.WriteLine("What is your favorite venue? ");
+            string venue = Console.ReadLine();
+
+            Console.WriteLine($"{name} took their pet {favAnimal} to see {favBand} " +
+                              $"at the legendary {venue} for the {holiday} festival!");
+        }
+
         static double Multiply(double num1, double num2)
         {
             return num1 * num2;
